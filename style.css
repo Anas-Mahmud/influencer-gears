@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    width: 1110px;  
+    opacity: 0.25;
+}
+.top-product{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    margin-top: 150px;
+}
+.product-info{
+    width: 582px;
+}
+.product-photo{
+    width: 440px;
+}
+.product-info a{
+    text-decoration: none;
+}
+.preebook-button{
+    background: #E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px;
+    color: white;
+}
+#camera{
+    position: relative;
+    z-index: 1;
+}
+#circle{
+    position: relative;
+    top: -450px;
+}
+.stors{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+}
